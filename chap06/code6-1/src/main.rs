@@ -3,5 +3,7 @@ fn main() {
     let b = 20;
     if a < b {
         println!("a < b is ok");
+    } else {
+        println!("a < b is ng")
     }
 }
