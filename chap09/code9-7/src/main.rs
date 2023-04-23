@@ -1,4 +1,4 @@
-struct Rectange {
+struct Rectangle {
     width: f32,
     height: f32,
 }
@@ -13,7 +13,7 @@ struct Circle {
 }
 
 fn main() {
-    let rect = Rectange {
+    let rect = Rectangle {
         width: 10.0,
         height: 20.0,
     };
