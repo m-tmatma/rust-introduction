@@ -24,13 +24,13 @@ impl CalcArea for Rectangle {
 
 impl CalcArea for Triangle {
     fn calc_area(&self) -> f32 {
-        self.base * self.height
+        self.base * self.height * 0.5
     }
 }
 
 impl CalcArea for Circle {
     fn calc_area(&self) -> f32 {
-        self.radius * self.radius
+        self.radius * self.radius * 3.14
     }
 }
 
