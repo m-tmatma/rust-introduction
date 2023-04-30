@@ -1,5 +1,4 @@
 use std::fs::File;
-use std::io::Read;
 use std::io::{BufRead, BufReader};
 
 fn main() -> std::io::Result<()> {
