@@ -1,4 +1,4 @@
 fn main() {
-    let name : &str = "msaruda tomoaki";
-    let age : i32 = 30;
+    let _name : &str = "msaruda tomoaki";
+    let _age : i32 = 30;
 }
