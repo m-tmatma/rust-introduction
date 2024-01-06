@@ -2,7 +2,7 @@ use reqwest::StatusCode;
 
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>>{
-    let n = 7;
+    let _n = 7;
     let url = "http://openccpm.com/blog/unknown.txt";
     println!("call {}", url);
     let res = reqwest::get( url ).await?;
